@@ -1,0 +1,174 @@
+<!Doctype html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <title>Ubícanos | Nvidia</title>
+    <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <section class="logo">
+                <a href="index.html"><img src="imagenes/nvidia logo.png" alt="logo"></a>
+            </section>
+        </header>
+            <nav class="menu-h">
+                <ul>
+                    <li> <a href="index.html">Inicio</a> </li>
+                    <li> <a href="quienessomos.html">Quienes somos</a></li>
+                    <li> <a href="servicios.html">Servicios</a></li>
+                    <li> <a href="garantias.html">Garantías</a></li>
+                    <li> <a href="productos.html">Productos</a></li>
+                    <li> <a href="ofertas.html">Ofertas</a></li>
+                    <li> <a href="acerca.html">Acerca de</a></li>
+                </ul>
+            </nav>
+            <section class="banner">
+             <img src="imagenes/banner.jfif" alt="Banner Ubícanos">
+            </section>
+            <section class="contenedor">
+                <nav class="menu-v">
+                    <ul>
+                        <li><a href="index.html"> <img src="imagenes/inicio.png" alt="">Inicio</a></li>
+                        <li><a href="servicios.html"><img src="imagenes/engranaje.png" alt="">Servicios</a></li>
+                        <li><a href="productos.html"><img src="imagenes/carrito-de-compras.png" alt="">Productos</a></li>
+                        <li><a href="Ubicanos.html"><img src="imagenes/pasador-de-ubicacion.png" alt="">Ubicanos</a></li>
+                        <li><a href="contactenos.html"><img src="imagenes/contactenos.png" alt="">Contactenos</a></li>
+                    </ul>
+                </nav>
+                <section class="contenido">
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.2872060106964!2d-71.05970348453415!3d42.36025367918674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370adf4fa55dd%3A0x4f0c2a99f3d15862!2sNVIDIA%20Corporation!5e0!3m2!1ses!2sus!4v1676658622823!5m2!1ses!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="informacion">
+                        <h3>Dirección:</h3>
+                        <p>1234 Avenida Principal, Ciudad, País</p>
+                        <h3>Teléfono:</h3>
+                        <p>+123 456 7890</p>
+                        <h3>Email:</h3>
+                        <p>contacto@nvidia.com</p>
+                    </div>
+                </section>
+            </section>
+            <footer>
+                Derechos Reservados @copy: <br>
+                Derechos por: Elvin Arias <br>
+            </footer>
+    </body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: rgb(43, 42, 42);
+            padding: 20px;
+        }
+        header{
+            max-width: 1000px;
+            min-height: 130px;
+            margin: 0 auto;
+            border-radius: 20px 20px 0 0;
+            background: linear-gradient(to bottom,  #299a0b 35%,#299a0b 89%,#299a0b 100%);
+        }
+        .logo{
+            width: 320px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .logo img{
+            width: 300px;
+            height: 90px;
+        }
+        .menu-h{
+            max-width: 1000px;
+            min-height: 50px;
+            background: black;
+            margin: 0 auto;
+        }
+        .menu-h ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        .menu-h a{
+            background: white;
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+            background: black;
+            font-family: arial;
+            font-size: 18px;
+        }
+        .banner{
+            max-width: 1000px;
+            min-height: 250px;
+            margin: 0 auto;
+        }
+        .banner img{
+            max-width: 1000px;
+            min-height: 250px;
+        }
+        .contenedor{
+            max-width: 1000px;
+            min-height: 700px;
+            margin: 0 auto;
+        }
+        .menu-v{
+            width: 300px;
+            min-height: 700px;
+            background: grey;
+            float: left;
+        }
+        .menu-v ul{
+            list-style: none;
+            padding: 50px;
+        }
+        .menu-v a{
+            display: block;
+            color: black;
+            background: white;
+            padding: 10px;
+            text-decoration: none;
+            margin-bottom: 8px;
+            border-radius: 5px;
+        }
+        .menu-v a:hover{
+            background: green;
+        }
+        .contenido{
+            padding: 15px;
+            width: 700px;
+            min-height: 700px;
+            float: right;
+            background: linear-gradient(to bottom,  #299a0b 35%,#299a0b 89%,#299a0b 100%);
+            box-sizing: border-box;
+        }
+        .contenido h2{
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+        }
+        .mapa{
+            margin-bottom: 30px;
+        }
+        .informacion{
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        footer{
+            max-width: 1000px;
+            background: black;
+            margin: 0 auto;
+            border-radius: 0 0 20px 20px;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            box-sizing: border-box;
+        }
+    </style>
+</html>

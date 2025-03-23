@@ -1,0 +1,198 @@
+<!Doctype html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <title>Contactanos | Nvidia</title>
+    <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <section class="logo">
+                <a href="index.html"><img src="imagenes/nvidia logo.png" alt="logo"></a>
+            </section>
+        </header>
+            <nav class="menu-h">
+                <ul>
+                    <li> <a href="index.html">Inicio</a> </li>
+                    <li> <a href="quienessomos.html">Quienes somos</a></li>
+                    <li> <a href="servicios.html">Servicios</a></li>
+                    <li> <a href="garantias.html">Garantías</a></li>
+                    <li> <a href="productos.html">Productos</a></li>
+                    <li> <a href="ofertas.html">Ofertas</a></li>
+                    <li> <a href="acerca.html">Acerca de</a></li>
+                </ul>
+            </nav>
+            <section class="banner">
+             <img src="imagenes/banner.jfif" alt="Banner Contáctanos">
+            </section>
+            <section class="contenedor">
+                <nav class="menu-v">
+                    <ul>
+                        <li><a href="index.html"> <img src="imagenes/inicio.png" alt="">Inicio</a></li>
+                        <li><a href="servicios.html"><img src="imagenes/engranaje.png" alt="">Servicios</a></li>
+                        <li><a href="productos.html"><img src="imagenes/carrito-de-compras.png" alt="">Productos</a></li>
+                        <li><a href="Ubicanos.html"><img src="imagenes/pasador-de-ubicacion.png" alt="">Ubicanos</a></li>
+                        <li><a href="contactenos.html"><img src="imagenes/contactenos.png" alt="">Contactenos</a></li>
+                    </ul>
+                </nav>
+                <section class="contenido">
+                    <h2>Formulario de Contacto</h2>
+                    <p>Si tienes alguna pregunta o deseas más información, por favor completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                    <form action="enviar_formulario.php" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <br><br>
+
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                        <br><br>
+
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                        <br><br>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </section>
+            </section>
+            <footer>
+                Derechos Reservados @copy: <br>
+                Derechos por: Elvin Arias <br>
+            </footer>
+    </body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: rgb(43, 42, 42);
+            padding: 20px;
+        }
+        header{
+            max-width: 1000px;
+            min-height: 130px;
+            margin: 0 auto;
+            border-radius: 20px 20px 0 0;
+            background: linear-gradient(to bottom,  #299a0b 35%,#299a0b 89%,#299a0b 100%);
+        }
+        .logo{
+            width: 320px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .logo img{
+            width: 300px;
+            height: 90px;
+        }
+        .menu-h{
+            max-width: 1000px;
+            min-height: 50px;
+            background: black;
+            margin: 0 auto;
+        }
+        .menu-h ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        .menu-h a{
+            background: white;
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+            background: black;
+            font-family: arial;
+            font-size: 18px;
+        }
+        .banner{
+            max-width: 1000px;
+            min-height: 250px;
+            margin: 0 auto;
+        }
+        .banner img{
+            max-width: 1000px;
+            min-height: 250px;
+        }
+        .contenedor{
+            max-width: 1000px;
+            min-height: 700px;
+            margin: 0 auto;
+        }
+        .menu-v{
+            width: 300px;
+            min-height: 700px;
+            background: grey;
+            float: left;
+        }
+        .menu-v ul{
+            list-style: none;
+            padding: 50px;
+        }
+        .menu-v a{
+            display: block;
+            color: black;
+            background: white;
+            padding: 10px;
+            text-decoration: none;
+            margin-bottom: 8px;
+            border-radius: 5px;
+        }
+        .menu-v a:hover{
+            background: green;
+        }
+        .contenido{
+            padding: 15px;
+            width: 700px;
+            min-height: 700px;
+            float: right;
+            background: linear-gradient(to bottom,  #299a0b 35%,#299a0b 89%,#299a0b 100%);
+            box-sizing: border-box;
+        }
+        .contenido h2{
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+        }
+        form{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            text-align: left;
+            margin-top: 20px;
+        }
+        label{
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        input, textarea{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"]{
+            background-color: #299a0b;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover{
+            background-color: #247a07;
+        }
+        footer{
+            max-width: 1000px;
+            background: black;
+            margin: 0 auto;
+            border-radius: 0 0 20px 20px;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+    </style>
+</html>

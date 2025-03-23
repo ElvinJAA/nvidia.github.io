@@ -1,0 +1,230 @@
+<!Doctype html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <title>Nvidia</title>
+    <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <section class="logo">
+                <a href="index.html"><img src="imagenes/nvidia logo.png" alt="logo"></a>
+            </section>
+        </header>
+            <nav class="menu-h">
+                <ul>
+                    <li> <a href="">Inicio</a> </li>
+                    <li> <a href="">Quienes somos</a>
+                    <ul class="submenu">
+                    <li><a href="">Historia</a></li>
+                    <li><a href="">Mision</a></li>
+                    <li><a href="">Vision</a></li>
+                    </ul>
+                    </li>
+                    <li> <a href="">Servicios</a>
+                        <ul class="submenu">
+                            <li><a href="">Historia</a></li>
+                            <li><a href="">Mision</a></li>
+                            <li><a href="">Vision</a></li>
+                            </ul>
+                        </li>
+                    <li> <a href="">Garantias</a> </li>
+                    <li> <a href="">Productos</a></li>
+                    <li> <a href="">Ofertas</a></li>
+                    <li> <a href="">Acerca de</a></li>
+                </ul>
+            </nav>
+            <section class="banner">
+             <img src="imagenes/banner.jfif" alt="">
+            </section>
+            <section class="contenedor">
+                <nav class="menu-v">
+                    <ul>
+                        <li><a href="index.html"> <img src="imagenes/inicio.png" alt="">Inicio</a></li>
+                        <li><a href="servicios.html"><img src="imagenes/engranaje.png" alt="">Servicios</a></li>
+                        <li><a href="productos.html"><img src="imagenes/carrito-de-compras.png" alt="">Productos</a></li>
+                        <li><a href="Ubicanos.html"><img src="imagenes/pasador-de-ubicacion.png" alt="">Ubicanos</a></li>
+                        <li><a href="contactenos.html"><img src="imagenes/contactenos.png" alt="">Contactenos</a></li>
+                    </ul>
+                </nav>
+                <section class="contenido">
+                    <h2>Servicios</h2>
+                    <p>
+                        Soporte al Cliente: Para asistencia con productos como tarjetas gráficas GeForce, GeForce NOW, NVIDIA SHIELD y kits Jetson, puedes acceder al servicio de atención al cliente de NVIDIA
+                    </p>
+                    <br>
+                    <p>
+                        Servicios Empresariales: NVIDIA proporciona soporte para productos empresariales, incluyendo sistemas NVIDIA DGX™, soluciones Virtual GPU (vGPU), servidores NGC-Ready™ y kits Jetson. 
+                    </p>
+                    <br>
+                    <p>
+                        Servicios de Asesoría: Para acelerar proyectos de inteligencia artificial, NVIDIA ofrece servicios de asesoría que permiten trabajar directamente con expertos de la compañía en todas las etapas del proyecto, desde la preparación de datos hasta la implementación en producción. 
+                    </p>
+                    <br>
+                    <p>
+                        Aplicación NVIDIA: La aplicación NVIDIA es una herramienta esencial para jugadores y creadores de PC. Permite mantener el PC actualizado con los últimos controladores y tecnologías de NVIDIA, optimizar juegos y aplicaciones, y acceder a herramientas de grabación y otros recursos.
+                    </p>
+                    <br>
+                    <p>
+                        GeForce NOW: Este servicio de juego en la nube permite a los usuarios jugar a sus títulos favoritos en diversos dispositivos sin necesidad de hardware potente, ya que los juegos se ejecutan en los servidores de NVIDIA y se transmiten en tiempo real al dispositivo del usuario. 
+                    </p>
+                </section>
+            </section>
+            <footer>
+                Derechos Reservados @copy: <br>
+                Derechos por: Elvin Arias <br>
+            </footer>
+    </body>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(43, 42, 42);
+    padding: 20px;
+}
+header{
+    max-width: 1000px;
+    min-height: 130px;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#299a0b+35,299a0b+89,299a0b+100 */
+background: linear-gradient(to bottom,  #299a0b 35%,#299a0b 89%,#299a0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.logo{
+    width: 320px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    animation: 1s entradalogo 1;
+}
+
+.logo img{
+    width: 300px;
+    height: 90px;
+}
+
+.menu-h{
+    max-width: 1000px;
+    min-height: 50px;
+    background: black;
+    margin: 0 auto;
+}
+.menu-h ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.menu-h a{
+    background: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: black;
+    font-family: arial;
+    font-size: 18px;
+}
+.menu-h ul ul{
+    display: none;
+    position: absolute;
+}
+.menu-h ul li:hover ul{
+    display: block;
+}
+.menu-h a:hover{
+    background: white;
+    border-radius: 20px;
+}
+
+.banner{
+    max-width: 1000px;
+    min-height: 250px;
+    margin: 0 auto;
+}
+.banner img{
+    max-width: 1000px;
+    min-height: 250px;
+}
+
+.contenedor{
+    max-width: 1000px;
+    min-height: 700px;
+
+    margin: 0 auto;
+}
+
+.menu-v{
+    width: 300px;
+    min-height: 700px;
+    background: grey;
+    float: left;
+}
+.menu-v ul{
+    list-style: none;
+    padding: 50px;
+}
+.menu-v a{
+    display: block;
+    color: black;
+    background: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    
+}
+.menu-v a:hover{
+    background: green;
+}
+.menu-v a:hover img{
+    animation: 1s rotacion 1;
+}
+
+.menu-v img{
+    width: 17px;
+    height: 17px;
+}
+
+.contenido{
+    padding: 15px;
+    width: 700px;
+    min-height: 700px;
+    float: right;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#299a0b+35,299a0b+89,299a0b+100 */
+background: linear-gradient(to bottom,  #299a0b 35%,#299a0b 89%,#299a0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+box-sizing: border-box;
+}
+.contenido h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.contenido p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+footer{
+    max-width: 1000px;
+    background: black;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+@keyframes rotacion{
+    0%{transform: rotate(360deg);}
+}
+    </style>
+</html>
